@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+      div{
+        border: solid1px;
+        height: 400px;
+        width: 700px;
+      font-size: 50px;
+      
+      }
+      div::selection{
+        color: aqua;
+        background-color: brown;
+      }
+      div::first-letter{
+        font-size: 60px;
+        font-weight: bold;
+      }
+      div::first-line{
+        background-color: chocolate;
+      }
+      div::before{
+        content: 'welcome';
+      }
+    </style>
+
+</head>
+<body>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi quos delectus at saepe, numquam assumenda eius eligendi dolorum voluptatem doloribus libero est debitis modi pariatur quisquam architecto veniam recusandae.</div>
+</body>
+</html>
